@@ -13,7 +13,7 @@
   "devDependencies": {
     "typescript": "^5.0.4"
   },
-  "types": "dist/index.d.ts",
+  "types": "dist/index.ts",
   "files": [
     "/dist"
   ]
