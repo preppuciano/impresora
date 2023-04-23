@@ -1,3 +1,3 @@
 const src= require('./src');
 
-module.export= src;
+module.exports= src;
