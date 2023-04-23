@@ -1,2 +1,4 @@
-export { pene } from './HolaMundo';
-export { poto } from './ChaoMundo';
+const holaMundo= require('./utils/HolaMundo');
+const chaoMundo= require('./utils/ChaoMundo');
+
+module.export= {holaMundo, chaoMundo};

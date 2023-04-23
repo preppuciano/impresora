@@ -1,1 +1,3 @@
-export { default } from './src/ChaoMundo';
+const src= require('./src');
+
+module.export= src;
