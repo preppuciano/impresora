@@ -1,7 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.caca = exports.pene = void 0;
-const utils_1 = require("./utils/utils");
+exports.caca = exports.pene = exports.getTime = exports.holaMundo = exports.chaoMundo = void 0;
+var utils_1 = require("./utils/utils");
+Object.defineProperty(exports, "chaoMundo", { enumerable: true, get: function () { return utils_1.chaoMundo; } });
+Object.defineProperty(exports, "holaMundo", { enumerable: true, get: function () { return utils_1.holaMundo; } });
+Object.defineProperty(exports, "getTime", { enumerable: true, get: function () { return utils_1.getTime; } });
 exports.pene = "awdaw";
 exports.caca = 10;
-exports.default = utils_1.chaoMundo;
+// export getTime;
+exports.default = "awd";
+// export default chaoMundo;
