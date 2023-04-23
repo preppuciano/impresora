@@ -1,4 +1,7 @@
-const hola= require('./src/HolaMundo');
-const chao= require('./src/ChaoMundo');
+// const hola= require('./src/HolaMundo');
+// const chao= require('./src/ChaoMundo');
 
-module.exports = { hola, chao }
+import pene from './src/HolaMundo';
+import poto from './src/HolaMundo';
+
+module.exports = { pene, poto }

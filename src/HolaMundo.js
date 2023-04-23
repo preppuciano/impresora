@@ -2,4 +2,4 @@ function chaoMundo() {
   return "Chao Mundo!";
 }
 
-module.exports= chaoMundo;
+export default chaoMundo;
